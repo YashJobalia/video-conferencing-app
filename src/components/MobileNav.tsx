@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { sidebarLinks } from "../constants";
 import { usePathname } from "next/navigation";
-import { cn } from "../lib/utils";
+import { cn } from "@/lib/utils";
 
 const MobileNav = () => {
   const pathName = usePathname();
